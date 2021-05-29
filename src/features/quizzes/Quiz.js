@@ -4,7 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import Card from "../cards/Card";
 import ROUTES from "../../app/routes";
 
-export default function Topic() {
+export default function Quiz() {
   const quizzes = useSelector(selectQuizzes);
   let { quizId } = useParams();
   const quiz = quizzes[quizId];
