@@ -2,7 +2,7 @@ import { Link, useParams } from "react-router-dom";
 import Card from "../cards/Card";
 import ROUTES from "../../app/routes";
 
-export default function Topic() {
+export default function Quiz() {
   const quizzes = {}; // replace this with a call to your selector to get all the quizzes in state
   let { quizId } = useParams();
   const quiz = quizzes[quizId];
